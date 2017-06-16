@@ -1,0 +1,1 @@
+This project is based on ai-duet sample in Tensorflow Magenta project 
