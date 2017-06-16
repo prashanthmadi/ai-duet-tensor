@@ -1,4 +1,4 @@
-FROM python:3.5
+FROM python:2.7
 MAINTAINER Prashanth Madi<prashanthrmadi@gmail.com>
 
 ENV DEPLOYMENT_TARGET=/app
