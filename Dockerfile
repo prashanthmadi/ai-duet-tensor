@@ -28,7 +28,7 @@ RUN mkdir -p /home/LogFiles/docker \
 	&& ln -sf /dev/stdout /home/LogFiles/docker/access.log \
 	&& ln -sf /dev/stderr /home/LogFiles/docker/error.log
 
-COPY nginx.conf /etc/nginx/conf.d/
+COPY nginx.conf /etc/nginx/nginx.conf
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf	
 COPY sshd_config /etc/ssh/
 COPY init_container.sh /bin/
